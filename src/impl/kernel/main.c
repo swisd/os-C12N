@@ -54,4 +54,5 @@ void process_command(const char *cmd) {
     } else {
         print_str("Unknown command.\n");
     }
+    print_str("> ")
 }
